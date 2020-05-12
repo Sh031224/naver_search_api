@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const search = require("./search");
+const blog = require("./blog");
 
-router.get("/", search);
+router.get("/blog", blog);
 
 module.exports = router;

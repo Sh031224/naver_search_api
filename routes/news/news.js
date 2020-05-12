@@ -37,6 +37,11 @@ module.exports = async (req, res) => {
           status: 500,
           message: "서버 오류"
         });
+      } else {
+        return res.status(400).json({
+          status: 400,
+          message: "잘못된 형식 요청입니다."
+        });
       }
     }
   } else {
