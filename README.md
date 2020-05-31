@@ -1,4 +1,4 @@
-# naver_search_api
+# Naver Search Api
 
 - 🔍 Naver Search Api
 
